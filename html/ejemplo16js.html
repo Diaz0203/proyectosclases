@@ -1,0 +1,57 @@
+<script>
+    /*
+          cantidadNumeroLeer = 3;
+    
+          
+        for (let i = 0; i < cantidadNumeroLeer.length; i++) {
+    
+            var numero = parseInt(prompt("Digite un numero."));
+    
+            if (esNumeroPar(numero))
+    
+                console.log("es par");
+    
+            else
+                console.log("es Impar");
+    
+        }
+    
+        function esNumeroPar(numero) {
+    
+    
+            return numero % 2 == 0;
+    
+    
+        }
+    */
+
+    meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+
+    for (const mes of meses) {
+
+        console.log(mes);
+
+    }
+
+
+    frase = prompt("Digite la una Frase ").toLowerCase();
+    contadorletraA = 0;
+
+    for (let i = 0; i < frase.length; i++) {
+
+        if (frase.charAt(i) == "a")
+            contadorletraA++;
+
+
+    }
+
+    console.log("la cantidad de letra a es igual a " +contadorletraA);
+
+
+
+
+
+
+
+</script>
